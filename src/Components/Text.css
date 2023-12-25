@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+nav img {
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+nav {
+    border-radius: 20px;
+    background-color: rgb(173, 228, 228);
+    color: black;
+    display: flex;
+    /* flex-direction: column;
+    align-items: center; */
+}
+
+.navbar {
+    display: flex;
+    margin: 13px auto;
+    padding: 10px 80px;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 5px 40px;
+    border-radius: 10px;
+}
+
+.navbar li:hover {
+    background-color: black;
+    color: azure;
+    cursor: pointer;
+}
